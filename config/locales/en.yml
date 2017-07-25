@@ -5,7 +5,6 @@ en:
       comfy/cms/site: Course
       comfy/cms/layout: Layout
       comfy/cms/page: Page
-      comfy/cms/snippet: Snippet
       comfy/cms/file: File
 
     attributes:
@@ -70,20 +69,20 @@ en:
           not_found: Course not found
 
           index:
-            title: Sites
-            new_link: Create New Site
-            select: Select Site
+            title: Course
+            new_link: Create New Course
+            select: Select Course
             edit: Edit
             delete: Delete
-            are_you_sure: Are you sure you want to delete this site?
+            are_you_sure: Are you sure you want to delete this course?
           new:
-            title: New Site
+            title: New Course
           edit:
-            title: Editing Site
+            title: Editing Course
           form:
-            create: Create Site
+            create: Create Course
             cancel: Cancel
-            update: Update Site
+            update: Update Course
             is_mirrored: Mirrored
 
         layouts:
