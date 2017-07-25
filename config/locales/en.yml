@@ -2,7 +2,7 @@
 en:
   activerecord:
     models:
-      comfy/cms/site: Site
+      comfy/cms/site: Course
       comfy/cms/layout: Layout
       comfy/cms/page: Page
       comfy/cms/snippet: Snippet
@@ -55,19 +55,19 @@ en:
           site_not_found: Site not found
           fixtures_enabled: CMS Fixtures are enabled. All changes done here will be discarded.
 
-          sites: Sites
+          sites: Courses
           layouts: Layouts
           pages: Pages
           snippets: Snippets
           files: Files
 
         sites:
-          created: Site created
-          creation_failure: Failed to create site
-          updated: Site updated
-          update_failure: Failed to update site
-          deleted: Site deleted
-          not_found: Site not found
+          created: Course created
+          creation_failure: Failed to create course
+          updated: Course updated
+          update_failure: Failed to update course
+          deleted: Course deleted
+          not_found: Course not found
 
           index:
             title: Sites
