@@ -122,10 +122,9 @@ protected
     end
   end
 
-  # Don't need slug -- just give random one
+  # Escape slug unless it's nonexistent (root)
   def escape_slug
-    self.slug = SecureRandom.base64.tr('+/=', 'Qrt')
-    #self.slug = CGI::escape(self.slug) unless self.slug.nil?
+    self.slug = CGI::escape(self.slug) unless self.slug.nil?
   end
 
   # Unescape the slug and full path back into their original forms unless they're nonexistent
