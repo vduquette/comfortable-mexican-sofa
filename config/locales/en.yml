@@ -56,7 +56,7 @@ en:
 
           sites: Courses
           layouts: Layouts
-          pages: Pages
+          pages: Modules
           snippets: Snippets
           files: Files
 
@@ -119,27 +119,27 @@ en:
             update: Update Layout
 
         pages:
-          created: Page created
-          creation_failure: Failed to create page
-          updated: Page updated
-          update_failure: Failed to update page
-          deleted: Page deleted
-          not_found: Page not found
+          created: Created
+          creation_failure: Failed to create
+          updated: Updated
+          update_failure: Failed to update
+          deleted: Deleted
+          not_found: Not found
           layout_not_found: No Layouts found. Please create one.
 
           index:
-            title: Pages
-            new_link: Create New Page
+            title: Modules
+            new_link: Create New Module
           index_branch:
             toggle: Toggle
-            add_child_page: Add Child Page
+            add_child_page: Add Child
             edit: Edit
             delete: Delete
             are_you_sure: Are you sure?
           new:
-            title: New Page
+            title: New
           edit:
-            title: Editing Page
+            title: Editing
             revision:
               <<: *revision
           form:
