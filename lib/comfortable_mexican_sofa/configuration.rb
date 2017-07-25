@@ -80,7 +80,7 @@ class ComfortableMexicanSofa::Configuration
 
   # Configuration defaults
   def initialize
-    @cms_title            = 'ComfortableMexicanSofa CMS Engine'
+    @cms_title            = 'FDS Course Editor'
     @base_controller      = 'ApplicationController'
     @admin_auth           = 'ComfortableMexicanSofa::AccessControl::AdminAuthentication'
     @admin_authorization  = 'ComfortableMexicanSofa::AccessControl::AdminAuthorization'
