@@ -1,6 +1,7 @@
 .page-header
   = link_to "New Course", new_comfy_admin_cms_site_layout_path(@site), :class => 'btn btn-default pull-right'
-  %h2= t('.title')
+  %h2
+    Courses
 
 - content_for :right_column do
   = render 'comfy/admin/cms/sites/mirrors'
